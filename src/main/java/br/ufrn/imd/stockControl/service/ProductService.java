@@ -2,6 +2,7 @@ package br.ufrn.imd.stockControl.service;
 
 import java.util.List;
 
+import br.ufrn.imd.stockControl.model.ProductModel;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -12,17 +13,17 @@ public class ProductService {
     @Autowired
     private ProductRepository productRepository;
 
-    public List<Product> listarProducts() {
+    public List<ProductModel> listarProducts() {
         return productRepository.findAll();
     }
 
-    public Product salvarProduct(Product product) {
+    public ProductModel salvarProduct(ProductModel product) {
         return productRepository.save(product);
     }
 
     public void atualizarEstoque(Integer productId, Integer quantidade) {
-        Product product = productRepository.findById(productId).orElseThrow();
-        product.setQtdEstoque(quantidade);
+        ProductModel product = productRepository.findById(productId).orElseThrow();
+        product.setInStock(quantidade);
         productRepository.save(product);
     }
 }
