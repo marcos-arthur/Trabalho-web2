@@ -1,0 +1,16 @@
+C:\Development\Trabalho-web2\src\main\java\br\ufrn\imd\stockControl\model\OperationEnum.java
+C:\Development\Trabalho-web2\src\main\java\br\ufrn\imd\stockControl\controller\ProductController.java
+C:\Development\Trabalho-web2\src\main\java\br\ufrn\imd\stockControl\controller\StoreController.java
+C:\Development\Trabalho-web2\src\main\java\br\ufrn\imd\stockControl\repository\PermissaoRepository.java
+C:\Development\Trabalho-web2\src\main\java\br\ufrn\imd\stockControl\repository\OperacaoEstoqueRepository.java
+C:\Development\Trabalho-web2\src\main\java\br\ufrn\imd\stockControl\model\StoreModel.java
+C:\Development\Trabalho-web2\src\main\java\br\ufrn\imd\stockControl\Main.java
+C:\Development\Trabalho-web2\src\main\java\br\ufrn\imd\stockControl\model\StockLogModel.java
+C:\Development\Trabalho-web2\src\main\java\br\ufrn\imd\stockControl\repository\LojaRepository.java
+C:\Development\Trabalho-web2\src\main\java\br\ufrn\imd\stockControl\service\LojaService.java
+C:\Development\Trabalho-web2\src\main\java\br\ufrn\imd\stockControl\repository\ProdutoRepository.java
+C:\Development\Trabalho-web2\src\main\java\br\ufrn\imd\stockControl\service\ProdutoService.java
+C:\Development\Trabalho-web2\src\main\java\br\ufrn\imd\stockControl\repository\PapelRepository.java
+C:\Development\Trabalho-web2\src\main\java\br\ufrn\imd\stockControl\repository\UsuarioRepository.java
+C:\Development\Trabalho-web2\src\main\java\br\ufrn\imd\stockControl\model\ProductModel.java
+C:\Development\Trabalho-web2\src\main\java\br\ufrn\imd\stockControl\controller\StockLogController.java
